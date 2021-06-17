@@ -1,0 +1,70 @@
+.contenedor-app{
+border: 5px solid rgb(168, 31, 73);
+background-image: linear-gradient(40deg, rgb(131, 19, 56), pink,rgb(243, 206, 241));
+}
+.contenedorform { 
+  padding: 10px;
+}
+form{
+display: flex;
+flex-direction: column;
+}
+.formulario{
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+.nombre{
+list-style: none;
+line-height : 25px;
+color:rgb(114, 7, 48);
+-webkit-text-stroke: 0.06px white;
+}
+.cajitas{
+list-style: none;
+line-height : 25px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: -1px;
+  margin-top: -2px;
+  color: white;
+  font-size: 60px;
+  -webkit-text-stroke: 1.2px rgb(114, 7, 48);
+}
+.subir {
+  height:30px ;
+  width:200px ;
+  margin:auto;
+  border-radius: 10px;
+  background-image: url(https://i.pinimg.com/originals/42/42/7a/42427a0e34cd094dd67934e7344c3655.jpg);
+  background-size: 200px 120px;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  font-weight: bold;
+  color:rgb(109, 25, 50);
+  -webkit-text-stroke:0.4px rgb(247, 57, 114);
+}
+.subir:active {
+  height:30px ;
+  width:200px ;
+  margin:auto;
+  border-radius: 10px;
+  background-image: url(https://i.pinimg.com/originals/42/42/7a/42427a0e34cd094dd67934e7344c3655.jpg);
+  background-size: 200px 120px;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  font-weight: bold;
+  color:rgb(226, 195, 204);
+  -webkit-text-stroke:1px rgb(185, 19, 69);
+}
+input {
+  border-radius: 10px;
+}
+input:focus {
+ outline: 0px;
+ background-color:rgb(168, 31, 73);
+ border: 2px solid rgb(168, 31, 73);
+ color:white;
+
+}

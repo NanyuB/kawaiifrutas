@@ -1,0 +1,21 @@
+<div class="contenedor-app">
+<div class="contenedorform">
+  <h1>Lista de frutas</h1>
+  <form (ngSubmit)="anadir()">
+    <div class="formulario">
+<ul class="nombre">
+  <li><b>Producto</b> (Fruta)</li>
+  <li><b>Cantidad</b>(Kg)</li>
+  <li><b>Precio</b> (€/Kg)</li>
+</ul>
+<ul class="cajitas">
+<li><input type="text" [(ngModel)]="nuevafruta.nombre" name="nuevafruta"></li>
+<li><input type="number" min="0" step="1"[(ngModel)]="nuevafruta.cantidad" name="nuevacantidad"></li>
+<li><input type="number" min="0" step="1"[(ngModel)]="nuevafruta.precio" name="nuevoprecio"></li>
+</ul>
+    </div>
+<button class="subir" type="submit">Añadir al carrito</button>
+</form>
+</div>
+<app-carta [frutas]="frutas" (pagarFrutas)="pagar()"></app-carta>
+</div>

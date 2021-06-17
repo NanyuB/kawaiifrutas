@@ -1,0 +1,14 @@
+<div class="contenedorCarrito" *ngIf="frutas.length">
+  <h1>Carrito</h1>
+  <div class="contenedorFrutas">
+    <h3>Fruta</h3>
+    <h3>Cantidad</h3>
+    <h3>Precio</h3>
+  </div>
+  <app-objeto [fruta]="fruta" (borrarFruta)="borrarFrutaCarrito(i)" *ngFor="let fruta of frutas ; index as i"></app-objeto>
+  <div class="pagar">
+    <h4>Precio total del carrito: </h4>
+    <span> {{ obtenerTotal() }}€</span>
+  </div>
+  <button (click)="pagar()">Pagar</button>
+</div>

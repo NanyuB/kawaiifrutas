@@ -1,0 +1,47 @@
+.contenedorCarrito {
+
+  padding: 10px;
+  margin-top: -4px;
+
+}
+.contenedorFrutas {
+  display: flex;
+}
+h3 {
+text-decoration: underline double rgb(168, 31, 73);
+text-align: left;
+margin-left:45px ;
+margin-right: 65px;
+font-size: 22px;
+margin-bottom: -2px;
+-webkit-text-stroke: 0.6px rgb(114, 7, 48);
+color: white;
+ 
+}
+h1{
+  text-align: center;
+  margin-bottom: -1px;
+  margin-top: -2px;
+  color: white;
+  font-size: 55px;
+  -webkit-text-stroke: 1.2px rgb(114, 7, 48);
+
+}
+.pagar {
+  display: inline-flex;
+  align-items: center;
+  color:white;
+  font-size: 20px;
+  margin-bottom: -20px;
+}
+span{
+  margin-left: 25px;
+  margin-right: 40px;
+  color: rgb(43, 7, 22);
+  -webkit-text-stroke: 0.2px rgb(114, 7, 48);
+  font-size: 22px;
+}
+
+button{
+  border-radius: 8px;
+}
